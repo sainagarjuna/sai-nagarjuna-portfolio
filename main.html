@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">PortFolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" active>Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>T J V S Nagarjuna</h1>
+            <br>
+            <h3>And I'm a <span id="multiple"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quam earum explicabo ipsum officia
+                repellendus dolore veritatis soluta, dolor pariatur, recusandae magni, ullam debitis in placeat
+                voluptates consectetur. Fuga, ipsum?</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/t-j-v-s-nagarjuna-8854721a2/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/sainagarjuna"><i class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/nagarjunasai9"><i class='bx bxl-twitter'></i></a>
+
+
+            </div>
+            <a href="Nagas resume.pdf" target="_blank" class="btn">Download CV</a>
+
+        </div>
+        <div class="home-img">
+            <img src="1.jfif" alt="image">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="fix.jpeg" alt="image2">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-stack Web Enthusiast!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis corrupti maxime a explicabo dolor fuga
+                quibusdam excepturi tempore repudiandae harum, deleniti officia facilis voluptates nemo, placeat unde
+                alias ratione. Ea recusandae quo repellat ratione omnis ut pariatur et earum, nihil mollitia quis fugiat
+                consequuntur necessitatibus harum laborum architecto odit minus. Iusto maiores incidunt cum unde
+                voluptate voluptatum, adipisci corrupti, repellat quis corporis dolorem ut! Dolores.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>PortFolio</h3>
+                <p>A quick Tour about me, my interests and professional development of my career. Developed using HTML, CSS, Javascript, Typescript. Build on pure css and responsive in all modes. Contact me to get more details.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+
+            <div class="project-box">
+                <i class='bx bx-mail-send' ></i>
+                <h3>Bulk Mailing</h3>
+                <p>Using SMTP, the user can send an email with document attached like photos(png, jpg), pdf.
+                    Python language developed program which can send normal text, documents and
+                    stylesheets(embedded using html code).
+                </p>
+                <a href="https://github.com/sainagarjuna/Sending-Mails-In-Bulk" class="btn">Read More</a>
+            </div>
+
+            <div class="project-box">
+                <i class='bx bxl-python' ></i>
+                <h3>Text to speech converter</h3>
+                <p>A simple python code to convert text to speech thus reducing the time to make audio clip.
+                    Attributes like volume and tone of the speech can also be modified. Python Library pyttsx3
+                    makes it convenient to simplify the user task.
+                </p>
+                <a href="https://github.com/sainagarjuna/Text-and-Speech-conversion-using-python" class="btn">Read More</a>
+            </div>
+
+
+            <div class="project-box">
+                <i class='bx bxl-react' ></i>
+                <h3>Online Weathering App</h3>
+                <p>The user can get the details of the temperature of any city in Celsius. A react application
+                    which fetches the accurate results on search with proper city name. Scaling the users and
+                    protecting the users or experiencing the end-user with a single-page verse.</p>
+                <a href="https://github.com/sainagarjuna/weather-app" class="btn">Read More</a>
+            </div>
+
+            <div class="project-box">
+                <i class='bx bxl-react' ></i>
+                <h3>Lung Tumor Prediction Model using Federated Forest(Major Project)</h3>
+                <p>Spearheaded the design
+                    and development of a cutting-edge lung tumor prediction model leveraging the federated forest approach. The federated
+                    architecture aggregates performance metrics from multiple clients, facilitating the creation of a global model on a centralized
+                    server. The implementation, utilizing random forest algorithms, ensures accurate predictions from raw user data. The project is
+                    hosted on AWS.</p>
+                <a href="https://github.com/sainagarjuna/weather-app" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </section>
+    <!--codescore-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nagarjuna | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"> <i class='bx bxs-up-arrow-circle' ></i></a>
+        </div>
+
+    </footer>
+
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
